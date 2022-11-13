@@ -10,6 +10,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/feature-home-store" />
+            <option value="$PROJECT_DIR$/feature-product-details" />
+            <option value="$PROJECT_DIR$/feature-shopping-cart" />
+            <option value="$PROJECT_DIR$/feature-splash-screen" />
           </set>
         </option>
       </GradleProjectSettings>
