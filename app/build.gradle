@@ -1,43 +1,62 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+  //  id 'kotlin-parcelize'
+    //id 'androidx.navigation.safeargs'
 }
 
-android {
-    compileSdk 32
-
-    defaultConfig {
-        applicationId "com.example.ecommerceconcept"
-        minSdk 23
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-}
-
+//
 dependencies {
+    //Module
+    implementation project(Modules.base)
+    implementation project(Modules.homeStore)
+    implementation project(Modules.productDetails)
+    implementation project(Modules.shoppingCart)
+    implementation project(Modules.splashScreen)
+    implementation project(Modules.navigation)
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.7.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+    //Kotlin
+    implementation Kotlin.core
+    implementation Kotlin.coroutinesCore
+    implementation Kotlin.coroutinesAndroid
+
+    //Design
+    implementation Design.appCompat
+    implementation Design.material
+    implementation Design.constraintLayout
+
+    //Dagger2
+    implementation Dagger2.dagger
+    implementation Dagger2.daggerAndroidSupport
+    kapt Dagger2.daggerCompiler
+    kapt Dagger2.daggerProcess
+
+    //Retrofit
+    implementation Retrofit.retrofit
+    implementation Retrofit.converterGson
+    implementation Retrofit.gson
+
+    //Lifecycle
+    implementation Lifecycle.lifecycleCommon
+    implementation Lifecycle.lifecycleExtensions
+    implementation Lifecycle.lifecycleLiveData
+    implementation Lifecycle.lifecycleViewModel
+
+    //ViewBindingLibrary
+    implementation ViewBindingLibrary.viewBinding
+
+    //FragmentKtx
+    implementation FragmentKtxLibrary.fragmentKtxLibrary
+
+    //Navigation
+    implementation Navigation.navFragment
+    implementation Navigation.navFragment
+    implementation Navigation.sageArgsNav
+
+    //Tests
+    testImplementation Tests.junit
+    androidTestImplementation Tests.ext
+    androidTestImplementation Tests.espresso
 }
+
