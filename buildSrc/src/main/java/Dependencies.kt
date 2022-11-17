@@ -1,7 +1,4 @@
 object Versions {
-	//Dagger2
-	const val dagger = "2.43.2"
-
 	//Design
 	const val appcompat = "1.5.1"
 	const val material = "1.7.0"
@@ -10,6 +7,8 @@ object Versions {
 	//Glide
 	const val glide = "4.12.0"
 	const val glideCompiler = "4.12.0"
+	//Koin
+	const val koin = "3.2.2"
 
 	//Kotlin
 	const val core = "1.7.0"
@@ -23,7 +22,9 @@ object Versions {
 	const val LifecycleLiveData = "2.5.1"
 
 	//Navigation
-	const val navigation = "2.5.1"
+	const val navigation = "2.5.3"
+
+
 
 	//Retrofit
 	const val retrofit = "2.9.0"
@@ -46,12 +47,7 @@ object Config{
 	const val minSdk = 23
 	const val targetSdk = 32
 }
-object Dagger2 {
-	const val dagger = "com.google.dagger:dagger:${Versions.dagger}"
-	const val daggerAndroidSupport = "com.google.dagger:dagger-android-support:${Versions.dagger}"
-	const val daggerCompiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
-	const val daggerProcess = "com.google.dagger:dagger-android-processor:${Versions.dagger} "
-}
+
 
 object Design {
 	const val appCompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
@@ -64,7 +60,10 @@ object Glide {
 	const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
 	const val glideCompiler = "com.github.bumptech.glide:compiler:${Versions.glideCompiler}"
 }
-
+object Koin {
+	const val koinCore = "io.insert-koin:koin-core:${Versions.koin}"
+	const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
+}
 object Kotlin {
 	const val core = "androidx.core:core-ktx:${Versions.core}"
 	const val coroutinesCore =
@@ -82,7 +81,7 @@ object Lifecycle {
 		"androidx.lifecycle:lifecycle-livedata-ktx:${Versions.LifecycleLiveData}"
 	const val lifecycleCommon =
 		"androidx.lifecycle:lifecycle-common-java8:${Versions.LifecycleLiveData}"
-	const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.LifecycleLiveData}"
+	const val lifecycleCompiler = "ndroidx.lifecycle:lifecycle-compiler:${Versions.LifecycleLiveData}"
 }
 
 object Modules {

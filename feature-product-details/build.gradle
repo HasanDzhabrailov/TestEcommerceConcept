@@ -9,10 +9,18 @@ dependencies {
     //Kotlin
     implementation Kotlin.core
 
+    //Koin
+    implementation Koin.koinCore
+    implementation Koin.koinAndroid
+
     //Design
     implementation Design.appCompat
     implementation Design.material
 
+    //Navigation
+    implementation Navigation.navFragment
+    implementation Navigation.navFragment
+    implementation Navigation.sageArgsNav
     //Tests
     testImplementation Tests.junit
     androidTestImplementation Tests.ext

@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-kapt'
   //  id 'kotlin-parcelize'
     //id 'androidx.navigation.safeargs'
 }
@@ -26,11 +25,10 @@ dependencies {
     implementation Design.material
     implementation Design.constraintLayout
 
-    //Dagger2
-    implementation Dagger2.dagger
-    implementation Dagger2.daggerAndroidSupport
-    kapt Dagger2.daggerCompiler
-    kapt Dagger2.daggerProcess
+    //Koin
+    implementation Koin.koinCore
+    implementation Koin.koinAndroid
+
 
     //Retrofit
     implementation Retrofit.retrofit

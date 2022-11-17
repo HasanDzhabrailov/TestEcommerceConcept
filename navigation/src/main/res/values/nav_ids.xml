@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home_store" type="id"/>
+    <item name="product_details" type="id"/>
+    <item name="shopping_cart" type="id"/>
+    <item name="splash_screen" type="id"/>
+</resources>
