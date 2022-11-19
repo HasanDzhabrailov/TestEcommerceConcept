@@ -5,20 +5,19 @@ buildscript {
         google()
         jcenter()
         mavenCentral()
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.2.1"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
-        classpath(Navigation.sageArgsNav)
+        classpath Navigation.sageArgsNav
+        classpath Koin.koinPlugin
+
 
     }
 
 }
+apply plugin: 'koin'
 
-apply plugin: 'kotlin-kapt'
 
 subprojects {
     afterEvaluate { project ->

@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/layout/fragment_home_store.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-product-details/src/main/res/layout/fragment_product_details.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-shopping-cart/src/main/res/layout/fragment_shopping_cart.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-splash-screen/src/main/res/layout/fragment_splash_screen.xml" value="0.19947916666666668" />
       </map>
     </option>
   </component>

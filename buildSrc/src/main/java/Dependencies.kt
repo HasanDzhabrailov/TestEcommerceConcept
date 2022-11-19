@@ -8,7 +8,8 @@ object Versions {
 	const val glide = "4.12.0"
 	const val glideCompiler = "4.12.0"
 	//Koin
-	const val koin = "3.2.2"
+	const val koin = "3.2.0"
+	//const val koinPlugin = "3.2.0"
 
 	//Kotlin
 	const val core = "1.7.0"
@@ -44,7 +45,7 @@ object Versions {
 
 object Config{
 	const val compileSdk = 32
-	const val minSdk = 23
+	const val minSdk = 24
 	const val targetSdk = 32
 }
 
@@ -63,6 +64,7 @@ object Glide {
 object Koin {
 	const val koinCore = "io.insert-koin:koin-core:${Versions.koin}"
 	const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
+	const val koinPlugin = "io.insert-koin:koin-gradle-plugin:${Versions.koin}"
 }
 object Kotlin {
 	const val core = "androidx.core:core-ktx:${Versions.core}"

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/shopping_cart">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopping_cart"
+    app:startDestination="@id/shoppingCartFragment">
 
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.example.feature_shopping_cart.presentation.ShoppingCartFragment"
+        android:label="fragment_shopping_cart"
+        tools:layout="@layout/fragment_shopping_cart" />
 </navigation>

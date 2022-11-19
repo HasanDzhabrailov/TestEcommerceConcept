@@ -1,8 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-  //  id 'kotlin-parcelize'
-    //id 'androidx.navigation.safeargs'
+//   id 'kotlin-parcelize'
+//    id 'androidx.navigation.safeargs'
 }
 
 //
@@ -14,7 +14,8 @@ dependencies {
     implementation project(Modules.shoppingCart)
     implementation project(Modules.splashScreen)
     implementation project(Modules.navigation)
-
+    annotationProcessor 'org.parceler:parceler:1.1.13'
+    implementation 'org.parceler:parceler-api:1.1.13'
     //Kotlin
     implementation Kotlin.core
     implementation Kotlin.coroutinesCore
@@ -50,11 +51,13 @@ dependencies {
     //Navigation
     implementation Navigation.navFragment
     implementation Navigation.navFragment
-    implementation Navigation.sageArgsNav
+  //  implementation Navigation.sageArgsNav
 
     //Tests
     testImplementation Tests.junit
     androidTestImplementation Tests.ext
     androidTestImplementation Tests.espresso
+    // legacy-support
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 
