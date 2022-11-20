@@ -7,6 +7,9 @@ plugins {
 
 
 dependencies {
+    //Module
+    implementation project(Modules.base)
+
     //Kotlin
     implementation Kotlin.core
 
@@ -17,15 +20,29 @@ dependencies {
     //Design
     implementation Design.appCompat
     implementation Design.material
+    implementation Design.constraintLayout
+
     //Navigation
     implementation Navigation.navFragment
     implementation Navigation.navUi
+
     //FragmentKtx
     implementation FragmentKtxLibrary.fragmentKtxLibrary
-    // legacy-support
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // Glide
+    implementation Glide.glide
+    implementation Glide.glideCompiler
+
+    //Retrofit
+    implementation Retrofit.retrofit
+    implementation Retrofit.converterGson
+    implementation Retrofit.gson
+    
     //Tests
     testImplementation Tests.junit
     androidTestImplementation Tests.ext
     androidTestImplementation Tests.espresso
+
+    // Toggle Button Group
+    implementation 'nl.bryanderidder:themed-toggle-button-group:1.4.1'
 }

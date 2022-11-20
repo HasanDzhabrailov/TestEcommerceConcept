@@ -19,5 +19,5 @@
     <color name="white_transparent">#33FFFFFF</color>
     <color name="color_stars">#FFB800</color>
     <color name="color_test">#2E0791</color>
-
+    <color name="surface">#F8F8F8</color>
 </resources>

@@ -4,8 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/base/src/main/res/drawable/ic_arrow_left.xml" value="0.131" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/base/src/main/res/drawable/ic_heart_filled.xml" value="0.131" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/drawable/ic_user.xml" value="0.131" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/layout/best_selller_item.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/layout/drop_down_item.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/layout/filter_options_bottom_sheet.xml" value="0.296195652173913" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/layout/fragment_home_store.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-home-store/src/main/res/layout/view_pager_hot_sales_item.xml" value="0.296195652173913" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-product-details/src/main/res/drawable/ic_cpu.xml" value="0.131" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-product-details/src/main/res/layout/fragment_product_details.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-product-details/src/main/res/layout/product_details_view_pager_item.xml" value="0.203125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-product-details/src/main/res/layout/view_pager_shop_item.xml" value="0.203125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-shopping-cart/src/main/res/layout/fragment_shopping_cart.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/EcommerceConcept/feature-splash-screen/src/main/res/layout/fragment_splash_screen.xml" value="0.19947916666666668" />
       </map>
