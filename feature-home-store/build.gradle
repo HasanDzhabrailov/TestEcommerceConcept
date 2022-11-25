@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
-    //id 'androidx.navigation.safeargs'
+
 }
 
 
@@ -12,7 +12,8 @@ dependencies {
 
     //Kotlin
     implementation Kotlin.core
-
+    implementation Kotlin.coroutinesAndroid
+    implementation Kotlin.coroutinesCore
     //Koin
     implementation Koin.koinCore
     implementation Koin.koinAndroid
@@ -42,7 +43,8 @@ dependencies {
     testImplementation Tests.junit
     androidTestImplementation Tests.ext
     androidTestImplementation Tests.espresso
-
+//Coroutine View Model Scope.
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
     // Toggle Button Group
     implementation 'nl.bryanderidder:themed-toggle-button-group:1.4.1'
 }

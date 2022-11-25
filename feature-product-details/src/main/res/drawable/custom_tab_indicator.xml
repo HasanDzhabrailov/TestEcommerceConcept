@@ -7,7 +7,7 @@
         tools:ignore="UnusedAttribute">
         <shape android:shape="rectangle">
             <corners android:radius="5dp" />
-            <solid android:color="@color/primary" />
+            <solid android:color="@color/orange" />
         </shape>
     </item>
 </layer-list>

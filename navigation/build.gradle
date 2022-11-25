@@ -1,7 +1,7 @@
 plugins {
 	id 'com.android.library'
 	id 'org.jetbrains.kotlin.android'
-//	id 'androidx.navigation.safeargs'
+	id 'androidx.navigation.safeargs'
 }
 
 
@@ -17,7 +17,7 @@ dependencies {
 	//Navigation
 	implementation Navigation.navFragment
 	implementation Navigation.navFragment
-	//implementation Navigation.sageArgsNav
+
 	// legacy-support
 	implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 	//Tests

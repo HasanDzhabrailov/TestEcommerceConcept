@@ -12,7 +12,9 @@ dependencies {
     //Design
     implementation Design.appCompat
     implementation Design.material
-
+    //Navigation
+    implementation Navigation.navFragment
+    implementation Navigation.navUi
     //Tests
     testImplementation Tests.junit
     androidTestImplementation Tests.ext

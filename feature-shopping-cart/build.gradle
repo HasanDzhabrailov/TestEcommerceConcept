@@ -1,12 +1,13 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
- //   id 'androidx.navigation.safeargs'
 }
 
 
 
 dependencies {
+    //Module
+    implementation project(Modules.base)
     //Kotlin
     implementation Kotlin.core
     //Koin

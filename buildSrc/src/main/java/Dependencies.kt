@@ -13,8 +13,8 @@ object Versions {
 
 	//Kotlin
 	const val core = "1.7.0"
-	const val coroutinesCore = "1.6.4"
-	const val coroutinesAndroid = "1.6.4"
+	const val coroutinesCore = "1.6.0"
+	const val coroutinesAndroid = "1.6.0"
 
 	//LifecycleExtensions
 	const val lifecycleExtensions = "2.2.0"
@@ -29,7 +29,7 @@ object Versions {
 
 	//Retrofit
 	const val retrofit = "2.9.0"
-	const val gson = "2.9.1"
+	const val gson = "2.9.0"
 
 	//Test
 	const val jUnit = "4.13.2"

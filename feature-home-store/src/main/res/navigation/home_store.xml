@@ -7,7 +7,11 @@
 
     <fragment
         android:id="@+id/homeStoreFragment"
-        android:name="com.example.feature_home_store.presentation.HomeStoreFragment"
+        android:name="com.example.feature_home_store.presentation.ui.HomeStoreFragment"
         android:label="fragment_home_store"
-        tools:layout="@layout/fragment_home_store" />
+        tools:layout="@layout/fragment_home_store">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="eccomerce-concept://example.google.app/home_store" />
+    </fragment>
 </navigation>

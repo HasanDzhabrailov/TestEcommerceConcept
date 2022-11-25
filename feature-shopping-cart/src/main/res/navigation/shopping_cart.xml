@@ -9,5 +9,9 @@
         android:id="@+id/shoppingCartFragment"
         android:name="com.example.feature_shopping_cart.presentation.ShoppingCartFragment"
         android:label="fragment_shopping_cart"
-        tools:layout="@layout/fragment_shopping_cart" />
+        tools:layout="@layout/fragment_shopping_cart">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="eccomerce-concept://example.google.app/shopping_cart" />
+    </fragment>
 </navigation>
