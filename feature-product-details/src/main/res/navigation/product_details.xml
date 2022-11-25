@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/productDetailsFragment"
-        android:name="com.example.feature_details.presentation.ProductDetailsFragment"
+        android:name="com.example.feature_details.presentation.ui.ProductDetailsFragment"
         android:label="fragment_product_details"
         tools:layout="@layout/fragment_product_details">
         <deepLink

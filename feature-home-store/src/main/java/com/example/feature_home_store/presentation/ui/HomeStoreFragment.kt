@@ -20,7 +20,7 @@ import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 
-class HomeStoreFragment :
+internal class HomeStoreFragment :
 	BaseFragment<FragmentHomeStoreBinding>(FragmentHomeStoreBinding::inflate) {
 	private lateinit var dialog: BottomSheetDialog
 	private val homeStoreViewModel by viewModel<HomeStoreViewModel>()

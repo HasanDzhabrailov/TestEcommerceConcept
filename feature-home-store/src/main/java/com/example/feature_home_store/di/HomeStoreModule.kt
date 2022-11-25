@@ -26,7 +26,7 @@ val homeStoreModule = module {
 	}
 }
 
-fun provideHomeStoreService(retrofit: Retrofit): HomeStoreApi =
+internal fun provideHomeStoreService(retrofit: Retrofit): HomeStoreApi =
 	retrofit.create(HomeStoreApi::class.java)
 
 

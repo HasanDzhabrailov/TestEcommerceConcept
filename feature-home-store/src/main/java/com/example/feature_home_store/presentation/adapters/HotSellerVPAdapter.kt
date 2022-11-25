@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide
 import com.example.feature_home_store.databinding.ViewPagerHotSalesItemBinding
 import com.example.feature_home_store.domain.model.HotSeller
 
-class HotSellerVPAdapter(
+internal class HotSellerVPAdapter(
 	private val hotSales: List<HotSeller>,
 	private val context: Context,
 ) : RecyclerView.Adapter<HotSellerVPAdapter.ViewPagerViewHolder>() {

@@ -15,7 +15,7 @@ import com.example.feature_home_store.databinding.BestSellerItemBinding
 import com.example.feature_home_store.domain.model.BestSeller
 import com.example.feature_home_store.presentation.ui.HomeStoreFragment
 
-class BestSellerAdapter(
+internal class BestSellerAdapter(
 	private val bestSeller: List<BestSeller>,
 	private val context: Context,
 	private val fragment: HomeStoreFragment,

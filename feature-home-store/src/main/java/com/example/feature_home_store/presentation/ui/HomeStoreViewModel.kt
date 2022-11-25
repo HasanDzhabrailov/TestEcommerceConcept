@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 
 
-class HomeStoreViewModel(
+internal class HomeStoreViewModel(
 	private val getHomeStoreUseCase: GetHomeStoreUseCase,
 	private val getNumberItemsCartUseCase: GetNumberItemsCartUseCase,
 ) : ViewModel() {

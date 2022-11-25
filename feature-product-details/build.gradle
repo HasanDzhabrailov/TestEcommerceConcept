@@ -22,9 +22,20 @@ dependencies {
     //Navigation
     implementation Navigation.navFragment
     implementation Navigation.navFragment
-   // implementation Navigation.sageArgsNav
-    // legacy-support
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    //FragmentKtx
+    implementation FragmentKtxLibrary.fragmentKtxLibrary
+
+    // Glide
+    implementation Glide.glide
+    implementation Glide.glideCompiler
+
+    //Retrofit
+    implementation Retrofit.retrofit
+    implementation Retrofit.converterGson
+    implementation Retrofit.gson
+    //Coroutine View Model Scope.
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
     //Tests
     testImplementation Tests.junit
     androidTestImplementation Tests.ext

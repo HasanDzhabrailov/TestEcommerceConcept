@@ -5,7 +5,7 @@ import com.example.feature_home_store.data.model.shopping_cart.ShoppingCartDto
 import com.example.feature_home_store.data.network.HomeStoreApi
 import com.example.feature_home_store.domain.repository.HomeStoreRepository
 
-class HomeStoreRepositoryImpl(private val repository: HomeStoreApi) : HomeStoreRepository {
+internal class HomeStoreRepositoryImpl(private val repository: HomeStoreApi) : HomeStoreRepository {
 
 	override suspend fun getHomeStoreList(): HomeStoreListDto = repository.getHomeStoreData()
 
