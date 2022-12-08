@@ -11,7 +11,7 @@
   <li>Lifecycle</li>
   <li>ViewModel</li>
   </ul>
-<li>Architecture: MVVM with Clean Architecture, Multi modul</li>
+<li>Architecture: MVVM with Clean Architecture, Multi module</li>
 <li>Navigation Component</li>
 <li>Retrofit2</li>
 <li>okhttp3</li>
